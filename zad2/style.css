@@ -53,8 +53,8 @@ label {
 }
 
 .checkbox-wrapper {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .btn {
@@ -92,9 +92,9 @@ label {
     flex-direction: column;
 }
 
-@media (max-width: 468px) {
+@media (min-width: 576px) {
     .checkbox-wrapper {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        justify-content: space-between;
     }
 }
