@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+.title {
+    color: #fd981c;
+}
+
 label {
     font-size: 0.7rem;
 }
@@ -38,7 +42,9 @@ label {
     flex-wrap: wrap;
 }
 
-.form-group.name .form-input, .form-group.data .form-input, .form-group > .btn-reset {
+.form-group.name .form-input,
+.form-group.data .form-input,
+.form-group > .btn-reset {
     flex-grow: 1;
 }
 
